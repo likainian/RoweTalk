@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_bt_hint"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvBtDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+        <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/server"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	    <TextView
+	            android:id="@+id/tvServerAddr"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </LinearLayout>
+    
+  
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:text="@string/sim_range" />
+        <TextView
+          android:id="@+id/tvSimInfo"
+          android:layout_marginLeft="10dp"
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="@string/empty"
+          android:textAppearance="?android:attr/textAppearanceSmall" />  
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:text="@string/sim_start" />
+        <TextView
+          android:id="@+id/tvSimStart"
+          android:layout_marginLeft="10dp"
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:text="@string/empty"
+          android:textAppearance="?android:attr/textAppearanceSmall" />  
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:text="@string/sim_current" />
+        <TextView
+          android:id="@+id/tvCurrentSim"
+          android:layout_marginLeft="10dp"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="@string/empty"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+     </LinearLayout>
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:text="@string/params" />
+        <TextView
+	          android:id="@+id/tvParams"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="@string/empty"
+	          android:textAppearance="?android:attr/textAppearanceSmall" />
+     </LinearLayout>
+    	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/cbEnableMifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_mifi_hint" />
+
+        <TextView
+            android:id="@+id/tvMifiDev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_wifi_hint" />
+
+        <TextView
+            android:id="@+id/tvWifiDev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/cbEnableVPN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_vpn_hint" />
+
+        <CheckBox
+            android:id="@+id/cbSpecifyVPN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/specify_vpn" />
+        <CheckBox
+            android:id="@+id/cbTestVPN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/test_vpn" />
+		<CheckBox
+            android:id="@+id/cbEnable4G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_4g_hint" />
+        
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/empty" />
+
+        <TextView
+            android:id="@+id/tvVpnDev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/empty"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    >
+    <CheckBox
+            android:id="@+id/cbNoSim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_no_sim_hint" />
+    
+    <CheckBox
+            android:id="@+id/cbEnableTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_test_hint" />
+    <CheckBox
+            android:id="@+id/cbLogFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/log_to_file" />
+    <CheckBox
+            android:id="@+id/cbAutoStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/auto_start" />
+    <!-- 
+    <CheckBox
+            android:id="@+id/cbOverseas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/overseas" />
+             -->
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    >
+	    <CheckBox
+	            android:id="@+id/cbOcrEnglish"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="false"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:text="@string/ocr_english_text" />
+	    
+	    <CheckBox
+	            android:id="@+id/cbOcrChinese"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="false"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:text="@string/ocr_chinese_text" />
+	    <CheckBox
+	            android:id="@+id/cbReportIP"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="false"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:text="@string/report_ip" />
+    
+    </LinearLayout>
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/falseSlotInfo"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+          android:id="@+id/tvFalseSlots"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/empty"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/falseTaskInfo"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+          android:id="@+id/tvFalseTasks"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/empty"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/successTaskInfo"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+          android:id="@+id/tvSuccessTasks"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/empty"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+	<TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/log"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>

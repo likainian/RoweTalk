@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	    <Button
+	            android:id="@+id/bnSelectBT"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            style="?android:attr/buttonStyleSmall"
+	            android:text="@string/select_bt" />
+    	<Button
+	         android:id="@+id/bnSysProps"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         style="?android:attr/buttonStyleSmall"
+	         android:text="@string/view_props" />
+    	<Button
+            android:id="@+id/bnSelectMifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:text="@string/select_mifi" />
+    	<Button
+            android:id="@+id/bnSelectWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:text="@string/select_wifi" />
+    	<Button
+            android:id="@+id/bnSelectVpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:text="@string/select_vpn" />
+    	<Button
+            android:id="@+id/bnSetupParams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:text="@string/setup_params" />
+       <Button
+            android:id="@+id/bnStartTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:text="@string/start_server" />
+   </LinearLayout>
+   <ListView android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:id="@+id/lvLogs" />
+	
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <Button android:id="@+id/bnStop"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="0dp"
+	    	android:layout_marginRight="5dp"
+             android:layout_weight="1"
+             style="?android:attr/buttonStyleSmall"
+	    	android:text="@string/stop_server"
+	    	/>
+    <Button android:id="@+id/bnSwitchCard"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="5dp"
+	    	android:layout_marginRight="5dp"
+             android:layout_weight="1"
+	    	android:text="@string/start_verify_cards"
+	    	/>
+    <Button android:id="@+id/bnExecutScript"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="5dp"
+	    	android:layout_marginRight="5dp"
+             android:layout_weight="1"
+             style="?android:attr/buttonStyleSmall"
+	    	android:text="@string/extend_functions"
+	    	/>
+    <Button android:id="@+id/bnClear"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="5dp"
+	    	android:layout_marginRight="0dp"
+             android:layout_weight="1"
+             style="?android:attr/buttonStyleSmall"
+	    	android:text="@string/clear_log"
+	    	/>
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\main_header.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\main_header.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_vpn.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\activity_setup_vpn.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\input_slot_sim_seq.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\input_slot_sim_seq.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup_params.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\activity_setup_params.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bt_device_list.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\activity_bt_device_list.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wifi_device_list.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\activity_wifi_device_list.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\input_sim_index.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\input_sim_index.xml"
+    },
+    {
+        "merged": "C:\\androidwork\\RoweTalk\\roweTalk\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\androidwork\\RoweTalk\\roweTalk\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
